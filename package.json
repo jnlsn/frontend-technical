@@ -1,0 +1,19 @@
+{
+    "name": "frontend-technical",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces": [
+      "apps/*"
+    ],
+    "scripts": {
+      "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    },
+    "devDependencies": {
+      "prettier": "2.8.4"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
+  
