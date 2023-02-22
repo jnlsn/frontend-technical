@@ -1,0 +1,63 @@
+.modalScreen {
+  content: "";
+  display: block;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  z-index: 1;
+  background: white;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+}
+
+.modal > * + * {
+  margin-block-start: 1rem;
+}
+
+.field input,
+.field select {
+  display: block;
+  width: 100%;
+  margin-block-start: 0.5rem;
+  padding: 0.5rem;
+}
+
+.field input:focus,
+.field select:focus {
+  outline-color: var(--focus-color);
+}
+
+.modalScreen[hidden] {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 0.5rem;
+  background: lightblue;
+  border: 1px solid skyblue;
+  border-radius: 0.1rem;
+}
+
+.buttons button:disabled {
+  border-color: whitesmoke;
+  background-color: white;
+  color: gray;
+  pointer-events: none;
+}

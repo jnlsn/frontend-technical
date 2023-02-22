@@ -1,0 +1,45 @@
+.hour {
+  border-top: 1px solid var(--grid-color);
+  display: grid;
+  grid-template-columns: 12ch auto;
+}
+
+.hourLabel {
+  display: inline-block;
+  background: white;
+  position: relative;
+  transform: translateY(-50%);
+  padding-right: 1ch;
+}
+
+.hour > div + div {
+  border-left: 1px solid var(--grid-color);
+}
+
+.event {
+  cursor: pointer;
+  background: coral;
+  color: white;
+  appearance: none;
+  border: none;
+  width: 100%;
+  height: calc((100% + 1px) * var(--hours));
+  position: relative;
+  display: block;
+  text-align: left;
+  padding: 0.1rem 0.5rem;
+}
+
+.createEvent {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.createEvent:focus {
+  outline: 1px solid var(--focus-color);
+  outline-offset: 1px;
+}

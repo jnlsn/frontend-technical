@@ -3,6 +3,7 @@
 Implement a clone of Google Calendar’s day view that allows creating, deleting, and editing events via modal/popup.
 
 **Time**: 1hr
+**Company**: [Ramp](https://ramp.com)
 
 ## Specifications
 
