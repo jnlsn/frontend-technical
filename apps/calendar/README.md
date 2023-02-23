@@ -2,9 +2,9 @@
 
 Implement a clone of Google Calendar’s day view that allows creating, deleting, and editing events via modal/popup.
 
-**Time**: 1hr
+**Format**: Live conducted via Zoom
 
-**Company**: [Ramp](https://ramp.com)
+**Time**: 1hr
 
 ## Specifications
 
@@ -20,9 +20,9 @@ Implement a clone of Google Calendar’s day view that allows creating, deleting
 5. How to handle/display overlapping time events: any way is fine, but should not allow an event to entirely cover another.
    - For example, if multiple events have the exact same start and end time, they should all be at least partially visible+clickable.
 
-## Starter
+## Setup
 
-Basic Vite starter application with React and TypeScript.
+A basic Vite starter application with React and TypeScript was provided as the base.
 
 ```bash
 npm create vite@latest
