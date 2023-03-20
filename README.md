@@ -1,3 +1,3 @@
-# Frontend technical interview assignments
+# Frontend Technicals
 
-Real interview questions from actual companies.
+Frontend technical interview practice.
